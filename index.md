@@ -1,0 +1,125 @@
+# Cheat Sheet
+
+  [Cheat Sheet](#cheat-sheet)  
+		- [Comment out lines of code in Visual Studio Code](#comment-out-lines-of-code-in-visual-studio-code)  
+		- [DocFX](#docfx)  
+		- [DocFxTocGenerator and indexing](#docfxtocgenerator-and-indexing)  
+		- [Image path formatting](#image-path-formatting)  
+		- [Insert TOC in Markdown document](#insert-toc-in-markdown-document)  
+		- [Markdown tips](#markdown-tips)  
+		- [Relative Paths](#relative-paths)  
+		- [Select statements in SQL code:](#select-statements-in-sql-code)  
+		- [Website](#website)  
+  
+
+
+
+___
+
+### Comment out lines of code in Visual Studio Code
+* Command+K+C
+* Uncomment: Command+K+U
+
+___
+
+### DocFX
+
+* cmd to **build**: docfx init  
+* To **start site**: docfx /Users/brucemark/shockwavedocfx/docfx.json --serve
+
+* Add index.md to each directory for landing page
+* toc.yml files are key in each folder!
+
+___
+
+### DocFxTocGenerator and indexing
+1. cd to ShockWaveDocFX directory 
+2. DocFxTocGenerator -d shockwave-software/Projects
+
+	* Examples:
+		* brucemark@Bruces-MBP-5-2 shockwavetest % DocFxTocGenerator -d 			shockwave-software/Projects
+		* brucemark@Bruces-MBP-5-2 shockwavetest % DocFxTocGenerator -d 		shockwave-software/Solutions
+
+3. Exit with return code 0= **success!**
+4. In case you want **no help** go here: [Link to DocFXTocGenerator documentation](https://github.com/Ellerbach/docfx-companion-tools/tree/main/src/DocFxTocGenerator)
+5. **Commands:**
+
+	* '**-d "docs folder" "-o output folder" [-vsi]**'
+
+	* -d, --docfolder          Required. Folder containing the documents.
+	* -o, --outputfolder       Folder to write the resulting toc.yml in.
+	* -v, --verbose            Show verbose messages.
+	* -s, --sequence           Use the .order files for TOC sequence. Format are raws of: filename-without-extension
+	* -r, --override           Use the .override files for TOC file name override. Format are raws of: filename-without-extension;Title you want
+	* **-i, --index              Auto-generate a file index in each folder.**
+	* -g, --ignore             Use the .ignore files for TOC directory ignore. Format are raws of directory names: directory-to-ignore
+	* -m, --multitoc <depth>   Generate multiple toc files for child folders down to a certain child depth, default is 0 (root only generation).
+	* --help                   Display this help screen.
+	* --version                Display version information.
+  
+6. Sometimes **deleting the index** then recreating it clears up issues.
+
+___
+
+### Image path formatting
+ `![text](~/images/query.png)`
+
+
+
+___
+
+### Insert TOC in Markdown document
+
+* Command+shift+P
+* Type/choose:  "**_Markdown All in One: Create Table of Contents_**"
+
+
+___
+
+### Markdown tips
+* [Handy Site](https://www.codecademy.com/resources/docs/markdown)
+* Use two spaces after text to add a space in between lines.
+* Footnotes- add \[^1] to doc and it will prompt to create a footnote. (needed plugin)
+* To format commands - `JobStatus` WRITE (add job record) Use "`(the character below ~)" before and after command.  
+*  ⚠️ **Warning:**
+> This is a warning message. Be careful!
+* 📌 **Note:**
+> This is a note. Take note of this important information.
+*  💡 **Tip:**
+> This is a helpful tip. Use this advice to improve your workflow.
+
+
+___
+
+### Relative Paths
+Use relative paths when your documentation and DocFX configuration file (docfx.json) are in the same directory or subdirectories.
+
+Start the path with a dot (.) to indicate the current directory.
+Use forward slashes (/) even on Windows for consistency.
+
+
+Example: "files": [ "./src/**/*.cs" ] references all .cs files in the src subdirectory.
+
+___
+
+### Select statements in SQL code:
+* use three backticks <```> (under the tilde key) before and after the SQL statement - **on separate lines**) 
+  * example:  
+\`\`\`
+select * from vcSubscriberRawCdr(nolock) where cast(EFFECTIVE_DATE as date) between '01/01/2024' and '01/31/2024'
+\`\`\`
+
+___
+
+### Website
+
+**To clear cache and reload site (reflect changes) in Chrome**
+
+1. F12
+2. Right click on refresh 
+3. Click Empty Cash and Hard Reload  
+
+
+
+
+
