@@ -118,7 +118,7 @@ ___
 
 **To clear cache and reload site (reflect changes) in Chrome**
 
-1. F12
+1. F12 or right click and choose "Insert"
 2. Right click on refresh 
 3. Click Empty Cash and Hard Reload  
 
