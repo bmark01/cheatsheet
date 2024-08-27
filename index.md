@@ -99,7 +99,7 @@ ___
 > ⚠️ **Warning:**
 > This is a warning message. Be careful!  
 
-**Code:**
+**Format:**
 ```
 > ⚠️ **Warning:**
 > This is a warning message. Be careful!  
@@ -109,7 +109,7 @@ ___
 > 📌 **Note:**  
 > This is a note. Take note of this important information. 
  
-**Code:** 
+**Format:** 
 ```
 > 📌 **Note:**  
 > This is a note. Take note of this important information.  
@@ -119,7 +119,7 @@ ___
 >  💡 **Tip:**
 > This is a helpful tip. Use this advice to improve your workflow.
 >
-**Code:**
+**Format:**
 ```
 >  💡 **Tip:**
 > This is a helpful tip. Use this advice to improve your workflow.
