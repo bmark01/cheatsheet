@@ -93,17 +93,36 @@ ___
 * Use two spaces after text to add a space in between lines.
 * Footnotes- add \[^1] to doc and it will prompt to create a footnote. (needed plugin)
 * To format commands - `JobStatus` WRITE (add job record) Use "`(the character below ~)" before and after command.  
-  
+___
+
 > ⚠️ **Warning:**
 > This is a warning message. Be careful!  
 
+**Code:**
+```
+> ⚠️ **Warning:**
+> This is a warning message. Be careful!  
+```
+___
+
+> 📌 **Note:**  
+> This is a note. Take note of this important information. 
+ 
+**Code:** 
+```
 > 📌 **Note:**  
 > This is a note. Take note of this important information.  
+```
+___
 
 >  💡 **Tip:**
 > This is a helpful tip. Use this advice to improve your workflow.
-
-
+>
+**Code:**
+```
+>  💡 **Tip:**
+> This is a helpful tip. Use this advice to improve your workflow.
+```
 ___
 
 ### Relative Paths
