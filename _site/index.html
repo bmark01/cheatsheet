@@ -91,6 +91,7 @@
 - <a href="#comment-out-lines-of-code-in-visual-studio-code">Comment out lines of code in Visual Studio Code</a><br>
 - <a href="#docfx">DocFX</a><br>
 - <a href="#docfxtocgenerator-and-indexing">DocFxTocGenerator and indexing</a><br>
+- <a href="#github-desktop-commit-issue">GitHub Desktop Commit issue</a><br>
 - <a href="#image-path-formatting">Image path formatting</a><br>
 - <a href="#insert-toc-in-markdown-document">Insert TOC in Markdown document</a><br>
 - <a href="#markdown-tips">Markdown tips</a><br>
@@ -163,6 +164,13 @@
 <li><p>Sometimes <strong>deleting the index</strong> then recreating it clears up issues.</p>
 </li>
 </ol>
+<hr>
+<h3 id="github-desktop-commit-issue">GitHub Desktop Commit issue</h3>
+<p><strong>Error:</strong> &quot;The remote disconnected. Check your Internet connection and try again.&quot;</p>
+<p><strong>Fix:</strong> Run this command from the directory you are trying to publish from (e.g. cheatsheet)</p>
+<pre><code>git config --global http.postBuffer 157286400
+
+</code></pre>
 <hr>
 <h3 id="image-path-formatting">Image path formatting</h3>
 <p><code>![text](~/images/query.png)</code></p>

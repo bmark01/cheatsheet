@@ -4,12 +4,14 @@
 		- [Comment out lines of code in Visual Studio Code](#comment-out-lines-of-code-in-visual-studio-code)  
 		- [DocFX](#docfx)  
 		- [DocFxTocGenerator and indexing](#docfxtocgenerator-and-indexing)  
+		- [GitHub Desktop Commit issue](#github-desktop-commit-issue)  
 		- [Image path formatting](#image-path-formatting)  
 		- [Insert TOC in Markdown document](#insert-toc-in-markdown-document)  
 		- [Markdown tips](#markdown-tips)  
 		- [Relative Paths](#relative-paths)  
 		- [Select statements in SQL code:](#select-statements-in-sql-code)  
 		- [Web-Clear cache](#web-clear-cache)  
+
   
 
 
@@ -61,6 +63,16 @@ ___
 
 ___
 
+### GitHub Desktop Commit issue
+**Error:** "The remote disconnected. Check your Internet connection and try again."  
+
+**Fix:** Run this command from the directory you are trying to publish from (e.g. cheatsheet)
+```
+git config --global http.postBuffer 157286400
+
+```
+
+___
 ### Image path formatting
  `![text](~/images/query.png)`
 
@@ -121,7 +133,6 @@ ___
 1. F12 or right click and choose "Insert"
 2. Right click on refresh 
 3. Click Empty Cash and Hard Reload  
-
 
 
 
