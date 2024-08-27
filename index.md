@@ -9,7 +9,7 @@
 		- [Markdown tips](#markdown-tips)  
 		- [Relative Paths](#relative-paths)  
 		- [Select statements in SQL code:](#select-statements-in-sql-code)  
-		- [Website](#website)  
+		- [Web-Clear cache](#web-clear-cache)  
   
 
 
@@ -81,11 +81,14 @@ ___
 * Use two spaces after text to add a space in between lines.
 * Footnotes- add \[^1] to doc and it will prompt to create a footnote. (needed plugin)
 * To format commands - `JobStatus` WRITE (add job record) Use "`(the character below ~)" before and after command.  
-*  ⚠️ **Warning:**
-> This is a warning message. Be careful!
-* 📌 **Note:**
-> This is a note. Take note of this important information.
-*  💡 **Tip:**
+  
+> ⚠️ **Warning:**
+> This is a warning message. Be careful!  
+
+> 📌 **Note:**  
+> This is a note. Take note of this important information.  
+
+>  💡 **Tip:**
 > This is a helpful tip. Use this advice to improve your workflow.
 
 
@@ -111,7 +114,7 @@ select * from vcSubscriberRawCdr(nolock) where cast(EFFECTIVE_DATE as date) betw
 
 ___
 
-### Website
+### Web-Clear cache
 
 **To clear cache and reload site (reflect changes) in Chrome**
 
