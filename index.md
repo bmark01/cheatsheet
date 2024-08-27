@@ -118,7 +118,8 @@ ___
 
 >  💡 **Tip:**
 > This is a helpful tip. Use this advice to improve your workflow.
->
+
+
 **Format:**
 ```
 >  💡 **Tip:**
