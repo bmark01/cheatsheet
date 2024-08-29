@@ -82,9 +82,7 @@ ___
 
 ### Insert TOC in Markdown document
 
-* Command+shift+P  
-  
-![Command](./images/command.png) ![Shift](./images/shift.png) + **P**
+* **Command**+**shift**+**P**  
 * Type/choose:  "**_Markdown All in One: Create Table of Contents_**"
 
 
