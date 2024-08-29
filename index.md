@@ -19,8 +19,9 @@
 ___
 
 ### Comment out lines of code in Visual Studio Code
-* Command+K+C
-* Uncomment: Command+K+U
+* Comment out: **Command**+**K**+**C**
+  
+* Uncomment: **Command**+**K**+**U**
 
 ___
 
