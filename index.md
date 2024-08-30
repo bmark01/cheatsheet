@@ -75,15 +75,15 @@ ___
 ### Image path formatting
  `![text](~/images/query.png)`
 
-
-
 ___
 
 ### Insert TOC in Markdown document
 
 * **Command**+**shift**+**P**  
 * Type/choose:  "**_Markdown All in One: Create Table of Contents_**"
+
 ___
+
 ### Exclude items from TOC  
   
   ```
