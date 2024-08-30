@@ -1,19 +1,17 @@
+<!-- omit in toc -->
 # Cheat Sheet
 
-  [Cheat Sheet](#cheat-sheet)  
-		- [Comment out lines of code in Visual Studio Code](#comment-out-lines-of-code-in-visual-studio-code)  
-		- [DocFX](#docfx)  
-		- [DocFxTocGenerator and indexing](#docfxtocgenerator-and-indexing)  
-		- [GitHub Desktop Commit issue](#github-desktop-commit-issue)  
-		- [Image path formatting](#image-path-formatting)  
-		- [Insert TOC in Markdown document](#insert-toc-in-markdown-document)  
-		- [Markdown tips](#markdown-tips)  
-		- [Relative Paths](#relative-paths)  
-		- [Select statements in SQL code:](#select-statements-in-sql-code)  
-		- [Web-Clear cache](#web-clear-cache)  
-
-  
-
+- [Comment out lines of code in Visual Studio Code](#comment-out-lines-of-code-in-visual-studio-code)
+- [DocFX](#docfx)
+- [DocFxTocGenerator and indexing](#docfxtocgenerator-and-indexing)
+- [GitHub Desktop Commit issue](#github-desktop-commit-issue)
+- [Image path formatting](#image-path-formatting)
+- [Insert TOC in Markdown document](#insert-toc-in-markdown-document)
+- [Exclude items from TOC](#exclude-items-from-toc)
+- [Markdown tips](#markdown-tips)
+- [Relative Paths](#relative-paths)
+- [Select statements in SQL code:](#select-statements-in-sql-code)
+- [Web-Clear cache](#web-clear-cache)
 
 
 ___
@@ -85,8 +83,17 @@ ___
 
 * **Command**+**shift**+**P**  
 * Type/choose:  "**_Markdown All in One: Create Table of Contents_**"
-
-
+___
+### Exclude items from TOC  
+  
+  ```
+  <!-- omit in toc -->
+  ```
+* Usage example: 
+ ```
+  <!-- omit in toc -->
+  ### Table of Contents
+ ```
 ___
 
 ### Markdown tips
