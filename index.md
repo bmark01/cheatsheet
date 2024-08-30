@@ -86,14 +86,15 @@ ___
 
 ### Exclude items from TOC  
   
-  ```
-  <!-- omit in toc -->
-  ```
+```
+<!-- omit in toc -->
+```
 * Usage example: 
- ```
-  <!-- omit in toc -->
-  ### Table of Contents
- ```
+```
+<!-- omit in toc -->
+### Table of Contents
+```  
+
 ___
 
 ### Markdown tips
