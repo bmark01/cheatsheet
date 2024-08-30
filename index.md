@@ -88,11 +88,14 @@ ___
   
 ```
 <!-- omit in toc -->
-```
+```  
+
 * Usage example: 
+  
 ```
 <!-- omit in toc -->
-### Table of Contents
+### Table of Contents  
+
 ```  
 
 ___
