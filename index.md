@@ -10,7 +10,7 @@
 - [Exclude items from TOC](#exclude-items-from-toc)
 - [Markdown tips](#markdown-tips)
 - [Relative Paths](#relative-paths)
-- [Select statements in SQL code:](#select-statements-in-sql-code)
+- [SQL](#sql)
 - [Web-Clear cache](#web-clear-cache)
 
 
@@ -150,13 +150,17 @@ Example: "files": [ "./src/**/*.cs" ] references all .cs files in the src subdir
 
 ___
 
-### Select statements in SQL code:
+### SQL
+
+**Select statements:**
 * use three backticks <```> (under the tilde key) before and after the SQL statement - **on separate lines**) 
   * example:  
 \`\`\`
 select * from vcSubscriberRawCdr(nolock) where cast(EFFECTIVE_DATE as date) between '01/01/2024' and '01/31/2024'
 \`\`\`
 
+**Highlight table text:** ``` `attSubscriberRawCdr`.```
+  
 ___
 
 ### Web-Clear cache
