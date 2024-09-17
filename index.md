@@ -58,7 +58,7 @@ ___
 	* --help                   Display this help screen.
 	* --version                Display version information.
   
-6. Sometimes **deleting the index** then recreating it clears up issues.
+6. Sometimes **deleting the index** then recreating it, can clear up issues.
 
 ___
 
