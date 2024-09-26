@@ -80,7 +80,10 @@ ___
 ### Insert TOC in Markdown document
 
 * **Command**+**shift**+**P**  
-* Type/choose:  "**_Markdown All in One: Create Table of Contents_**"
+* Type/choose:  "**_Markdown All in One: Create Table of Contents_**"  
+
+> 📌 **Note:**  
+> Need to install Markdown All in One extension for Visual Studio Code
 
 ___
 
